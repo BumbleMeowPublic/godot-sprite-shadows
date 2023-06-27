@@ -1,0 +1,166 @@
+[gd_scene load_steps=30 format=2]
+
+[ext_resource path="res://Fish.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Main.gd" type="Script" id=2]
+[ext_resource path="res://textures/tri_fish_sh.png" type="Texture" id=3]
+[ext_resource path="res://textures/fish1.png" type="Texture" id=4]
+[ext_resource path="res://textures/fish19.png" type="Texture" id=5]
+[ext_resource path="res://textures/fish13.png" type="Texture" id=6]
+[ext_resource path="res://textures/round_fish_sh.png" type="Texture" id=7]
+[ext_resource path="res://textures/fish21.png" type="Texture" id=8]
+[ext_resource path="res://textures/fish9.png" type="Texture" id=9]
+[ext_resource path="res://textures/fish22.png" type="Texture" id=10]
+[ext_resource path="res://textures/oval_fish_sh.png" type="Texture" id=11]
+[ext_resource path="res://textures/fish24.png" type="Texture" id=12]
+[ext_resource path="res://textures/fish6.png" type="Texture" id=13]
+[ext_resource path="res://textures/fish7.png" type="Texture" id=14]
+[ext_resource path="res://textures/fish17.png" type="Texture" id=15]
+[ext_resource path="res://textures/fish18.png" type="Texture" id=16]
+[ext_resource path="res://textures/fish5.png" type="Texture" id=17]
+[ext_resource path="res://textures/fish3.png" type="Texture" id=18]
+[ext_resource path="res://textures/fish10.png" type="Texture" id=19]
+[ext_resource path="res://textures/fish4.png" type="Texture" id=20]
+[ext_resource path="res://textures/fish8.png" type="Texture" id=21]
+[ext_resource path="res://textures/fish16.png" type="Texture" id=22]
+[ext_resource path="res://textures/fish2.png" type="Texture" id=23]
+[ext_resource path="res://textures/fish20.png" type="Texture" id=24]
+[ext_resource path="res://textures/fish11.png" type="Texture" id=25]
+[ext_resource path="res://textures/fish12.png" type="Texture" id=26]
+[ext_resource path="res://textures/fish15.png" type="Texture" id=27]
+[ext_resource path="res://textures/fish14.png" type="Texture" id=28]
+[ext_resource path="res://textures/fish23.png" type="Texture" id=29]
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="BackgroundLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="BackgroundLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Fish" type="Node2D" parent="."]
+
+[node name="Fish" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 150, 133 )
+color_texture = ExtResource( 4 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish2" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 300, 133 )
+color_texture = ExtResource( 23 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish3" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 450, 133 )
+color_texture = ExtResource( 18 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish4" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 750, 133 )
+color_texture = ExtResource( 20 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish5" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 900, 133 )
+color_texture = ExtResource( 17 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish6" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 1050, 133 )
+color_texture = ExtResource( 13 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish7" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 150, 266 )
+color_texture = ExtResource( 14 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish8" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 300, 266 )
+color_texture = ExtResource( 21 )
+shadow_texture = ExtResource( 3 )
+
+[node name="Fish9" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 450, 266 )
+color_texture = ExtResource( 9 )
+shadow_texture = ExtResource( 7 )
+
+[node name="Fish10" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 750, 266 )
+color_texture = ExtResource( 19 )
+shadow_texture = ExtResource( 7 )
+
+[node name="Fish11" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 900, 266 )
+color_texture = ExtResource( 25 )
+shadow_texture = ExtResource( 7 )
+
+[node name="Fish12" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 1050, 266 )
+color_texture = ExtResource( 26 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish13" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 150, 532 )
+color_texture = ExtResource( 6 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish14" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 300, 532 )
+color_texture = ExtResource( 28 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish15" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 450, 532 )
+color_texture = ExtResource( 27 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish16" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 750, 532 )
+color_texture = ExtResource( 22 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish17" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 900, 532 )
+color_texture = ExtResource( 15 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish18" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 1050, 532 )
+color_texture = ExtResource( 16 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish19" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 150, 665 )
+color_texture = ExtResource( 5 )
+shadow_texture = ExtResource( 11 )
+
+[node name="Fish20" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 300, 665 )
+color_texture = ExtResource( 24 )
+shadow_texture = ExtResource( 7 )
+
+[node name="Fish21" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 450, 665 )
+color_texture = ExtResource( 8 )
+shadow_texture = ExtResource( 7 )
+
+[node name="Fish22" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 750, 665 )
+color_texture = ExtResource( 10 )
+shadow_texture = ExtResource( 7 )
+
+[node name="Fish23" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 900, 665 )
+color_texture = ExtResource( 29 )
+shadow_texture = ExtResource( 7 )
+
+[node name="Fish24" parent="Fish" instance=ExtResource( 1 )]
+position = Vector2( 1050, 665 )
+color_texture = ExtResource( 12 )
+shadow_texture = ExtResource( 7 )

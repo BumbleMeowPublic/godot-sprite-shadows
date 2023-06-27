@@ -1,0 +1,19 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/round_fish_sh.png-63838e3adab4ee0959ea13c24f8bfa9b.res"
+group_file="res://texture_atlas.png"
+valid=true
+[deps]
+
+
+source_file="res://textures/round_fish_sh.png"
+dest_files=[ "res://.import/round_fish_sh.png-63838e3adab4ee0959ea13c24f8bfa9b.res" ]
+
+[params]
+
+atlas_file="res://texture_atlas.png"
+import_mode=0
+crop_to_region=false
+trim_alpha_border_from_region=true

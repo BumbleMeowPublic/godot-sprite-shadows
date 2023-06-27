@@ -1,0 +1,19 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/fish20.png-2419b0e167ffb5c8fe3b3e4c1101591f.res"
+group_file="res://texture_atlas.png"
+valid=true
+[deps]
+
+
+source_file="res://textures/fish20.png"
+dest_files=[ "res://.import/fish20.png-2419b0e167ffb5c8fe3b3e4c1101591f.res" ]
+
+[params]
+
+atlas_file="res://texture_atlas.png"
+import_mode=0
+crop_to_region=false
+trim_alpha_border_from_region=true

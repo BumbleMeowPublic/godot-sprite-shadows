@@ -1,0 +1,19 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/oval_fish_sh.png-34cfd72470d2e247cc1686e53c32648e.res"
+group_file="res://texture_atlas.png"
+valid=true
+[deps]
+
+
+source_file="res://textures/oval_fish_sh.png"
+dest_files=[ "res://.import/oval_fish_sh.png-34cfd72470d2e247cc1686e53c32648e.res" ]
+
+[params]
+
+atlas_file="res://texture_atlas.png"
+import_mode=0
+crop_to_region=false
+trim_alpha_border_from_region=true

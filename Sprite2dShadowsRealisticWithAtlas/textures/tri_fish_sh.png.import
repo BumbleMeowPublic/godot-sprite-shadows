@@ -1,0 +1,19 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/tri_fish_sh.png-f942d186ec836a689f8c1cc6867888a2.res"
+group_file="res://texture_atlas.png"
+valid=true
+[deps]
+
+
+source_file="res://textures/tri_fish_sh.png"
+dest_files=[ "res://.import/tri_fish_sh.png-f942d186ec836a689f8c1cc6867888a2.res" ]
+
+[params]
+
+atlas_file="res://texture_atlas.png"
+import_mode=0
+crop_to_region=false
+trim_alpha_border_from_region=true
